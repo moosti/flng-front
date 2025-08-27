@@ -1,0 +1,25 @@
+@layer components {
+  input:-webkit-autofill {
+    @apply shadow-[0_0_0px_1000px_white_inset];
+    background-color: white;
+    color: white;
+  }
+
+  input:-webkit-autofill:hover,
+  input:-webkit-autofill:focus {
+    @apply shadow-[0_0_0px_1000px_white_inset];
+    background-color: white;
+    color: white;
+  }
+
+  .input_container {
+    @apply flex justify-start items-center gap-3 w-full bg-base-card border border-disable/40 py-2 px-4 rounded-xl;
+  }
+  .input_container .label {
+    @apply text-nowrap border-e-1 border-disable/40 px-2 font-medium text-xl text-base-card-content;
+  }
+
+  .input_container .input {
+    @apply text-sm text-base-card-content block w-full font-medium p-2.5 outline-0;
+  }
+}

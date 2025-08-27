@@ -1,0 +1,13 @@
+@layer components {
+  .dropdown {
+    @apply bg-base-card border-2 rounded-full border-disable/50 flex justify-center items-center px-4 py-2 cursor-pointer gap-2;
+  }
+
+  .dropdownMenu {
+    @apply bg-base-card rounded-lg text-base-card-content shadow-2xs;
+  }
+
+  .dropdownItem {
+    @apply block hover:bg-gray-200 rounded-lg text-base-card-content px-4 py-2 font-medium;
+  }
+}

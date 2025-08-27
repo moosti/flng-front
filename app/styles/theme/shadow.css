@@ -1,0 +1,42 @@
+@layer base {
+  :root {
+    --inset-shadow-card-sm: inset 0px 5px 2px 0px #ffffff40,
+      inset 0px -5px 2px 0px #00000040;
+    --inset-shadow-card-sm-active: inset 0px 5px 2px 0px #00000040,
+      inset 0px -5px 2px 0px #ffffff40;
+    --inset-shadow-card-xs: inset 0px 3px 2px 0px #ffffff40,
+      inset 0px -3px 2px 0px #00000040;
+    --inset-shadow-card-xs-active: inset 0px 3px 2px 0px #00000040,
+      inset 0px -3px 2px 0px #ffffff40;
+
+    --shadow-card-xs: 0px 2px 0px 0px #00000040, 0px -2px 0px 0px #ffffff40;
+    --shadow-card-xs-active: 0px -2px 0px 0px #00000040,
+      0px 2px 0px 0px #ffffff40;
+    --shadow-card-sm: 0px 4px 0px 0px #00000040, 0px -4px 0px 0px #ffffff40;
+    --shadow-card-sm-active: 0px -4px 0px 0px #00000040,
+      0px 4px 0px 0px #ffffff40;
+    --shadow-multi: 0px 5px #00000040, 0px 10px #00000040, 0px 15px #00000040,
+      0px 20px #00000040;
+  }
+  [dir="rtl"] {
+    --shadow-map-level-odd-container: inset 2px 2px 2px 0px #ffffff40,
+      inset 0px -2px 1px 0px #00000040;
+    --shadow-map-level-odd-box: -2px -2px 1px 0px #00000040,
+      0px 2px 1px 0px #ffffff40;
+    --shadow-map-level-even-container: inset -2px 2px 1px 0px #ffffff40,
+      inset 0px -2px 1px 0px #00000040;
+    --shadow-map-level-even-box: 2px -2px 1px 0px #00000040,
+      0px 2px 1px 0px #ffffff40;
+  }
+
+  [dir="ltr"] {
+    --shadow-map-level-odd-container: inset -2px 2px 2px 0px #ffffff40,
+      inset 0px -2px 1px 0px #00000040;
+    --shadow-map-level-odd-box: 2px -2px 1px 0px #00000040,
+      0px 2px 1px 0px #ffffff40;
+    --shadow-map-level-even-container: inset 2px 2px 1px 0px #ffffff40,
+      inset 0px -2px 1px 0px #00000040;
+    --shadow-map-level-even-box: -2px -2px 1px 0px #00000040,
+      0px 2px 1px 0px #ffffff40;
+  }
+}

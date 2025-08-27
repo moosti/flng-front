@@ -1,0 +1,102 @@
+@layer components {
+  .btn {
+    @apply flex justify-center items-center px-4 py-2 gap-2 cursor-pointer rounded-full;
+    background-color: var(--theme-color-base-card);
+    color: var(--theme-color-disable);
+    transition: all 0.2s ease-in-out;
+  }
+
+  .btn:disabled {
+    cursor: default;
+  }
+
+  .btn-outline {
+    @apply border-2;
+    border-color: currentColor;
+  }
+
+  .btn-prime {
+    color: var(--theme-color-base-card);
+    background-color: var(--theme-color-prime);
+  }
+
+  .btn-outline.btn-prime {
+    border-color: var(--theme-color-prime);
+    background-color: var(--theme-color-base-card);
+    color: var(--theme-color-prime);
+  }
+
+  .btn-outline.btn-prime:hover {
+    border-color: var(--theme-color-prime);
+    background-color: var(--theme-color-prime);
+    color: var(--theme-color-base-card);
+  }
+
+  .btn-error {
+    color: var(--theme-color-base-card);
+    background-color: var(--theme-color-error);
+  }
+
+  .btn-outline.btn-error:hover {
+    border-color: var(--theme-color-error);
+    background-color: var(--theme-color-error);
+    color: var(--theme-color-base-card);
+  }
+
+  .btn-outline.btn-error {
+    border-color: var(--theme-color-error);
+    background-color: var(--theme-color-base-card);
+    color: var(--theme-color-error);
+  }
+
+  .btn-warning {
+    color: var(--theme-color-base-card);
+    background-color: var(--theme-color-warning);
+  }
+
+  .btn-outline.btn-warning {
+    border-color: var(--theme-color-warning);
+    background-color: var(--theme-color-base-card);
+    color: var(--theme-color-warning);
+  }
+
+  .btn-outline.btn-warning:hover {
+    border-color: var(--theme-color-warning);
+    background-color: var(--theme-color-warning);
+    color: var(--theme-color-base-card);
+  }
+
+  .btn-info {
+    color: var(--theme-color-base-card);
+    background-color: var(--theme-color-info);
+  }
+
+  .btn-outline.btn-info {
+    border-color: var(--theme-color-info);
+    background-color: var(--theme-color-base-card);
+    color: var(--theme-color-info);
+  }
+
+  .btn-outline.btn-info:hover {
+    border-color: var(--theme-color-info);
+    background-color: var(--theme-color-info);
+    color: var(--theme-color-base-card);
+  }
+
+  .btn-neutral {
+    color: var(--theme-color-base-card);
+    background-color: var(--theme-color-neutral);
+  }
+
+  .btn-outline.btn-neutral {
+    border-color: var(--theme-color-neutral);
+    background-color: var(--theme-color-base-card);
+    color: var(--theme-color-neutral);
+  }
+
+  .btn-outline.btn-neutral:hover {
+    border-color: var(--theme-color-neutral);
+    background-color: var(--theme-color-neutral);
+    color: var(--theme-color-base-card);
+  }
+}

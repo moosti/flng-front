@@ -1,0 +1,20 @@
+@layer components {
+  .card {
+    @apply relative p-4 flex justify-start items-start flex-col gap-5 bg-base-card text-base-card-content w-fit h-fit;
+  }
+
+  .matched-card {
+    @apply ring-4 ring-accent/50;
+    animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+  }
+
+  @keyframes pulse {
+    0%,
+    100% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0.8;
+    }
+  }
+}

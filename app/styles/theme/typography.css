@@ -1,0 +1,57 @@
+[dir="ltr"] {
+  --font-black: "poppins-black";
+  --theme-bold: "poppins-bold";
+  --theme-medium: "poppins-medium";
+  --theme-regular: "poppins-regular";
+  --theme-semiBold: "poppins-semiBold";
+}
+
+[dir="rtl"] {
+  --font-black: "kalameh-black";
+  --theme-bold: "kalameh-bold";
+  --theme-medium: "kalameh-medium";
+  --theme-regular: "kalameh-regular";
+  --theme-semiBold: "kalameh-semiBold";
+}
+
+@layer components {
+  body {
+    @apply font-medium;
+  }
+
+  h1 {
+    @apply font-black text-3xl text-base-card-content;
+  }
+
+  h2 {
+    @apply font-bold text-2xl text-base-card-content;
+  }
+
+  h3 {
+    @apply font-medium text-xl text-base-card-content;
+  }
+
+  h4 {
+    @apply font-regular text-lg text-base-card-content;
+  }
+
+  h5 {
+    @apply font-semiBold text-base;
+  }
+
+  h6 {
+    @apply font-semiBold text-sm;
+  }
+
+  p {
+    @apply font-regular text-base text-base-card-content;
+  }
+
+  span {
+    @apply font-regular text-base;
+  }
+
+  div {
+    @apply font-regular text-base;
+  }
+}

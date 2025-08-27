@@ -1,0 +1,104 @@
+@layer components {
+  .loading-ring {
+    width: 48px;
+    height: 48px;
+    display: inline-block;
+    position: relative;
+  }
+
+  .loading-ring::after,
+  .loading-ring::before {
+    content: "";
+    box-sizing: border-box;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    border: 2px solid #d3d3d3c2;
+    position: absolute;
+    left: auto;
+    right: auto;
+    top: 0;
+    bottom: 0;
+    animation: animloader 1s linear infinite;
+  }
+
+  .loading-ring::after {
+    animation-delay: 0.2s;
+  }
+
+  @keyframes animloader {
+    0% {
+      transform: scale(0);
+      opacity: 1;
+    }
+    100% {
+      transform: scale(1);
+      opacity: 0;
+    }
+  }
+
+  .circleLoading {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: inherit;
+    transform-origin: 50%;
+    animation: circle 0.5s alternate infinite ease;
+  }
+
+  @keyframes circle {
+    0% {
+      top: 90%;
+      height: 5px;
+      border-radius: 50px 50px 25px 25px;
+      transform: scaleX(1.7);
+    }
+    40% {
+      height: 20%;
+      border-radius: 50%;
+      transform: scaleX(1);
+    }
+    100% {
+      top: 20%;
+    }
+  }
+  .circleLoading:nth-child(2) {
+    animation-delay: 0.2s;
+  }
+  .circleLoading:nth-child(3) {
+    animation-delay: 0.3s;
+  }
+  .shadow {
+    width: 20px;
+    height: 4px;
+    border-radius: 50%;
+    background-color: inherit;
+    position: absolute;
+    top: 90%;
+    transform-origin: 50%;
+    z-index: -1;
+    filter: blur(1px);
+    animation: shadow 0.5s alternate infinite ease;
+  }
+
+  @keyframes shadow {
+    0% {
+      transform: scaleX(1.5);
+    }
+    40% {
+      transform: scaleX(1);
+      opacity: 0.7;
+    }
+    100% {
+      transform: scaleX(0.2);
+      opacity: 0.4;
+    }
+  }
+  .shadow:nth-child(4) {
+    animation-delay: 0.2s;
+  }
+  .shadow:nth-child(5) {
+    animation-delay: 0.3s;
+  }
+}

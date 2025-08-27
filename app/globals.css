@@ -1,0 +1,24 @@
+@import "tailwindcss";
+@config "../tailwind.config.ts";
+
+/* Theme */
+@import "./styles/theme/variables.css";
+@import "./styles/theme/colors.css";
+@import "./styles/theme/typography.css";
+@import "./styles/theme/shadow.css";
+
+/* Fonts */
+@import "./styles/fonts/en.css";
+@import "./styles/fonts/fa.css";
+
+/* Components */
+@import "./styles/components/buttons.css";
+@import "./styles/components/inputs.css";
+@import "./styles/components/cards.css";
+@import "./styles/components/dropdown.css";
+@import "./styles/components/loading.css";
+@import "./styles/components/skeleton.css";
+@import "./styles/components/calendar.css";
+/* Utilities */
+@import "./styles/utilities/scrollbar.css";
+@import "./styles/utilities/utilities.css";

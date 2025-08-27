@@ -1,0 +1,35 @@
+/* English Fonts */
+@font-face {
+  font-family: "poppins-black";
+  src: url("/fonts/en/Poppins-Black.woff") format("woff");
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "poppins-bold";
+  src: url("/fonts/en/Poppins-Bold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "poppins-medium";
+  src: url("/fonts/en/Poppins-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "poppins-regular";
+  src: url("/fonts/en/Poppins-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "poppins-semiBold";
+  src: url("/fonts/en/Poppins-SemiBold.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+}

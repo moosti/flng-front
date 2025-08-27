@@ -1,0 +1,70 @@
+@layer base {
+  :root {
+    --theme-color-main: #f0f0f0;
+    --theme-color-prime-content: #a69aeb;
+    --theme-color-prime: #7a64f1;
+    --theme-color-secondary: #570457;
+    --theme-color-secondary-content: "";
+    --theme-color-accent: #00a37c;
+    --theme-color-accent-content: #00cd9c;
+    --theme-color-neutral: #ff8d23;
+    --theme-color-neutral-content: #ffa95a;
+    --theme-color-base-card: #ffffff;
+    --theme-color-base-card-content: #4b4b4b;
+    --theme-color-info: #168dc5;
+    --theme-color-info-content: #1cb0f6;
+    --theme-color-success: #2eae41;
+    --theme-color-success-content: #b4f0bd;
+    --theme-color-warning: #fcb932;
+    --theme-color-warning-content: "";
+    --theme-color-error: #f14346;
+    --theme-color-error-content: #fbc7c8;
+    --theme-color-disable: #949494;
+  }
+
+  [data-theme="light"] {
+    --theme-color-main: #f0f0f0;
+    --theme-color-prime-content: #a69aeb;
+    --theme-color-prime: #7a64f1;
+    --theme-color-secondary: #570457;
+    --theme-color-secondary-content: "";
+    --theme-color-accent: #00a37c;
+    --theme-color-accent-content: #00cd9c;
+    --theme-color-neutral: #ff8d23;
+    --theme-color-neutral-content: #ffa95a;
+    --theme-color-base-card: #ffffff;
+    --theme-color-base-card-content: #4b4b4b;
+    --theme-color-info: #168dc5;
+    --theme-color-info-content: #1cb0f6;
+    --theme-color-success: #2eae41;
+    --theme-color-success-content: #b4f0bd;
+    --theme-color-warning: #fcb932;
+    --theme-color-warning-content: "";
+    --theme-color-error: #f14346;
+    --theme-color-error-content: #fbc7c8;
+    --theme-color-disable: #949494;
+  }
+
+  [data-theme="dark"] {
+    --theme-color-main: #353535;
+    --theme-color-prime-content: "";
+    --theme-color-prime: #924fdc;
+    --theme-color-secondary: #df5edf;
+    --theme-color-secondary-content: "";
+    --theme-color-accent: #00a37c;
+    --theme-color-accent-content: #00cd9c;
+    --theme-color-neutral: #f58b3a;
+    --theme-color-neutral-content: "";
+    --theme-color-base-card: #4b4b4b;
+    --theme-color-base-card-content: #ffffff;
+    --theme-color-info: #53d4dd;
+    --theme-color-info-content: "";
+    --theme-color-success: #2eae41;
+    --theme-color-success-content: #b4f0bd;
+    --theme-color-warning: #fcb932;
+    --theme-color-warning-content: "";
+    --theme-color-error: #f14346;
+    --theme-color-error-content: #fbc7c8;
+    --theme-color-disable: #949494;
+  }
+}

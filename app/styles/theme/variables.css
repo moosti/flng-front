@@ -1,0 +1,44 @@
+@theme {
+  --inset-shadow-card-sm: var(--inset-shadow-card-sm);
+  --inset-shadow-card-sm-active: var(--inset-shadow-card-sm-active);
+  --inset-shadow-card-xs: var(--inset-shadow-card-xs);
+  --inset-shadow-card-xs-active: var(--inset-shadow-card-xs-active);
+
+  --shadow-card-xs: var(--shadow-card-xs);
+  --shadow-card-xs-active: var(--shadow-card-xs-active);
+  --shadow-card-sm: var(--shadow-card-sm);
+  --shadow-card-sm-active: var(--shadow-card-sm-active);
+  --shadow-multi: var(--shadow-multi);
+
+  --shadow-map-level-even-container: var(--shadow-map-level-even-container);
+  --shadow-map-level-even-box: var(--shadow-map-level-even-box);
+  --shadow-map-level-odd-container: var(--shadow-map-level-odd-container);
+  --shadow-map-level-odd-box: var(--shadow-map-level-odd-box);
+
+  --font-black: var(--font-black);
+  --font-bold: var(--theme-bold);
+  --font-medium: var(--theme-medium);
+  --font-regular: var(--theme-regular);
+  --font-semiBold: var(--theme-semiBold);
+
+  --color-main: var(--theme-color-main);
+  --color-prime-content: var(--theme-color-prime-content);
+  --color-prime: var(--theme-color-prime);
+  --color-secondary: var(--theme-color-secondary);
+  --color-secondary-content: var(--theme-color-secondary-content);
+  --color-accent: var(--theme-color-accent);
+  --color-accent-content: var(--theme-color-accent-content);
+  --color-neutral: var(--theme-color-neutral);
+  --color-neutral-content: var(--theme-color-neutral-content);
+  --color-base-card: var(--theme-color-base-card);
+  --color-base-card-content: var(--theme-color-base-card-content);
+  --color-info: var(--theme-color-info);
+  --color-info-content: var(--theme-color-info-content);
+  --color-success: var(--theme-color-success);
+  --color-success-content: var(--theme-color-success-content);
+  --color-warning: var(--theme-color-warning);
+  --color-warning-content: var(--theme-color-warning-content);
+  --color-error: var(--theme-color-error);
+  --color-error-content: var(--theme-color-error-content);
+  --color-disable: var(--theme-color-disable);
+}
