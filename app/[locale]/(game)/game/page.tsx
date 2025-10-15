@@ -143,7 +143,7 @@ const GamePage = () => {
 
       if (getUserProperties && getUserProperties.length > 0) {
         setHeart(getUserProperties[0].heart);
-        setIsPremium(getUserProperties[0].isPremium);
+        setIsPremium(getUserProperties[0].is_premium);
       }
 
       if (getGame && getGame.length > 0) {
