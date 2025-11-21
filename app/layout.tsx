@@ -7,7 +7,7 @@ import "@/styles/icon/icon.css";
 const lexend = Lexend({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Falingo",
+  title: "Shenakht",
   description: "Persian language teaching",
   icons: {
     icon: "/favicon.ico",

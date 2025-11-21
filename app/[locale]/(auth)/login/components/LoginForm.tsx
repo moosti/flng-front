@@ -62,14 +62,14 @@ const LoginForm = ({ locale }: { locale: string }) => {
         {locale === "fa" ? (
           <div className="flex justify-center items-center gap-3 my-2 o">
             <h1 className="">به</h1>
-            <h1 className="text-prime ">فالینگو</h1>
+            <h1 className="text-prime ">شناخت</h1>
             <h1 className="text-nowrap">خوش آمدید</h1>
           </div>
         ) : (
           <div className="flex justify-center items-center gap-3">
             <h1>Welcome</h1>
             <h1>to</h1>
-            <h1 className="text-primary">Falingo</h1>
+            <h1 className="text-primary">Shenakht</h1>
           </div>
         )}
       </div>
